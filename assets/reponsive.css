@@ -1,0 +1,155 @@
+/* Mobile and Tablet */
+@media (max-width: 1023px) {
+    .hide-on-mobile-tablet {
+        display: none;
+    }
+    .text-title {
+        font-size: 2.8rem;
+    }
+    .text-desc {
+        line-height: 2.5rem;
+        font-size: 1.3rem;
+        padding: 10px;
+    }
+    .btn-primary {
+        padding: 6px 25px;
+    }
+    .title {
+        font-size: 2.6rem;
+    }
+    .desc {
+        font-size: 1.3rem;
+        padding: 0px 12px;
+    }
+    .home__product-origin {
+        font-size: 1.4rem;
+    }
+    .home__product-name {
+        font-size: 1.8rem;
+        text-align: center;
+    }
+    .home__product-location {
+        font-size: 1.6rem;
+        text-align: center;
+    }
+    .contact-item {
+        padding: 17px 0px;
+    }
+    .home__reservation-contact {
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 1;
+        font-size: 1.6rem;
+        overflow: hidden;
+    }
+    .footer-desc {
+        font-size: 1.6rem;
+    }
+    .header__nav-mobile-icon {
+        display: block;
+    }
+    .header__nav-mobile {
+        display: block;
+    }
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+    .hide-on-tablet {
+        display: none;
+    }
+    .text {
+        margin-top: 15%;
+    }
+    .header {
+        min-height: 60vh;
+    }
+    .title:before {
+        left: 17%;
+    }
+    .title:after {
+        right: 17%;
+    }
+    .home__gallery-link {
+        font-size: 1.3rem;
+        padding: 12px 19px;
+    }
+    .home__news-item  {
+        margin-bottom: 5%;
+    }
+    .home__gallery-overlay {
+        width: 90%;
+    }
+    .home__gallery-overlay-link {
+        left: 33%;
+        top: 35%;
+    }
+}
+
+/* Mobile */
+@media (max-width: 739px) {
+    .hide-on-mobile {
+        display: none;
+    }
+    .header__nav-logo-link {
+        padding-left: 15px;
+    }  
+    .text {
+        margin-top: 20%;
+    }
+    .header {
+        min-height: 75vh;
+    }
+    .title:before {
+        left: 2%;
+    }
+    .title:after {
+        right: 2%;
+    }
+    .home__product-item {
+        margin: 15px;
+    }
+    .home__gallery-list {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .home__gallery-item {
+        margin-bottom: unset;
+    }
+    .home__gallery-img {
+        margin-top: 25px;
+    }
+    .home__gallery-link {
+        padding: 10px 12px;
+        letter-spacing: unset;
+        font-size: 1.3rem;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 1;
+        overflow: hidden
+    }
+    .home__gallery-overlay-link {
+        padding: 7px 25px;
+    }
+    .home__news-item  {
+        margin: 5%;
+    }
+    .home__reservation-item {
+        margin: 12px;
+    }
+    .footer-logo {
+        margin-bottom: 6%;
+    }
+    .footer-desc {
+        padding-bottom: 15px;
+    }
+    .go-to-top {
+        padding: 12px 16px;
+    }
+    .header__nav-mobile-link {
+        margin-left: 3%;
+    }
+    .header__nav-mobile-icon {
+        top: 4%;
+    }
+}
