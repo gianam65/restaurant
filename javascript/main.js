@@ -1,4 +1,5 @@
 $(function() {
+    new WOW().init();
     $(window).scroll(function() {
         var bodyHeight = $('html,body').scrollTop()
         // Sticky header, goTopbtn
